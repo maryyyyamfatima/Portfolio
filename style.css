@@ -279,6 +279,23 @@ font-family: 'Poppins', sans-serif;
     background-color: #ff004f;
 }
 
+.work-list .work .layer a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff004f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.work-list .work .layer a:hover {
+    background-color: #d6004a;
+    transform: translateY(-3px);
+}
+
+
 /*------------------------------- Contact -------------------------*/
 
 .contact-left{
